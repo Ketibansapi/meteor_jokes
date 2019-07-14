@@ -13,12 +13,14 @@
 	</head>
 
 <body>
-
+    {{> bertAlert}}
 	{{> sidebar}}
-
-    <div class = "main-content">
-        {{> jokes}}
-    </div>
-    
+    <!-- Main layout rendered-->
 </body>
+
+<template name="main_layout">
+    <div class = "main-content">
+        {{> yield}}
+    </div>
+</template>
 
