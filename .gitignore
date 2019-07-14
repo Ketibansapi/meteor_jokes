@@ -1,0 +1,20 @@
+
+# Created by https://www.gitignore.io/api/meteor
+# Edit at https://www.gitignore.io/?templates=meteor
+
+### Meteor ###
+# gitignore template for the Meteor framework
+# website: https://www.meteor.com/
+#
+# Recommended template: Node.gitignore
+
+# protect api keys in setting json
+settings-production.json
+settings.json
+node_modules
+
+# protect your mup.json settings
+mup.json
+mup.js
+
+# End of https://www.gitignore.io/api/meteor
